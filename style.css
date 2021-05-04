@@ -1,10 +1,10 @@
 body {
   /*background-image: url("images/header.png");*/
-  background-image: linear-gradient(purple, red, blue);
+  background-image: linear-gradient(white, white, white);
   font-family: 'Open Sans', sans-serif;
-  color: purple;
+  color: black;
   margin: 0;
-  background-color: black;
+  background-color: white;
 }
 
 div {
@@ -12,7 +12,7 @@ div {
 and images in "divs" and then move them around the page. */
   padding: 15px;
   margin: 15px;
-  background: black;
+  background: white;
 }
 
 img {
@@ -21,7 +21,7 @@ img {
 }
 
 p {
-  background: black;
+  background: white;
 }
 
 h1, h2, h3 {
@@ -33,7 +33,7 @@ ul, ol {
 }
 
 #bio {
-  background: black;
+  background: white;
   margin: 0px;
   padding: 10px;
   text-align: center;
