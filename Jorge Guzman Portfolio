@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <title>Jorge Portfolio</title>
+  
+  <!--<style>
+p { color: blak;}
+h1 { color: black;}
+</style>-->
+
+<link rel="stylesheet" href="style.css">
+  <!--This is a link to some Google Fonts, which can be found at: https://fonts.google.com/-->
+  <link href="https://fonts.googleapis.com/css?family=Acme|Open+Sans|Teko&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--  <img id="bkgnd" src="images/header.png">-->
+
+<!-- a "div" is like a box where you can put content. These boxes can be moved around the web page, and you can stick lots of web elements in these boxes.
+The "id" below refers to an "id tag" that styles this div in a specific way--you will find the styling in the .css file.-->
+  
+  <div id="bio">
+<h1><u>Jorge Guzman</u> I'm a Joliet native who's passion lies within Fine Arts. With a Bachelor in IDEAS , 
+    <h1><u>Jorge Guzman</u> is a Joliet native who's passion lies within Fine Arts. With a Bachelor in IDEAS , 
+      my focus lies in many areas within art. web design, painting, drawing, digital , and murals are a 
+      few passions of mine within this broad field.</h1>
+  </div>
+  
+  <!--the "a href" tag creates a link. In this case, I gave each project its own link so
+that it will take you to that particular project on this page. See below where the "id"
+of each project div is labeled "project1" or "project2" (etc.)-->
+  <div>
+    <ul> <!--"ul" means "unordered list. Each of the "li" (or "list items") will be marked with a bullet point.-->
+      <h2>IDEAS 120 CLASS PROJECTS</h2>
+      <li>PROJECT 1: <a href="#project1">Github Poetry</a></li>
+      <li>PROJECT 2: <a href="#project2">Zoom Background</a></li>
+      <li>PROJECT 3: <a href="#project3">Twine Game</a></li>
+      <li>PROJECT 4: <a href="#project4">Something Else</a></li>
+    </ul>
+  </div>
+  
+  <!--the "class" tag works a lot like the "id" tag, except it's helpful to use for a whole class
+of divs - in this case, the "img_left" class will style all the images I want to align to the left
+of the page.-->
+  <div class="img_left" id="project1"><img src="images/steve.gif"></div>
+  <div class="text_right">
+  
+  <a href="https://graffiti1981.github.io/Leo-Mdssi-or-Maradona/Messi or Maradona">Messi or Maradona</a>
+  
+  <a href="https://vimeo.com/546654650">Green Screen</a>
+  
+  <a href="file:///C:/Users/Jorge/Downloads/Futbolista.html">Twine Project</a>
+
+  <a href="https://github.com/IDEA-120/sample_portfolio/new/master">Portfolio</a>
